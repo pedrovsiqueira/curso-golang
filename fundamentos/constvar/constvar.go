@@ -19,4 +19,25 @@ func main(){
 
 	area := PI * math.Pow(raio, 2)
 	fmt.Println("A área da circunferência é", area)
+
+	//declarando variáveis em blocos
+
+	const (
+		a = 1
+		b = 2
+	)
+
+	var (
+		c = 3
+		d = 4
+	)
+
+	//declarando variaveis com tipagens seguidas
+	var e, f bool = true, false
+
+	//reduzida
+	g, h, i := 2, false, "epa!"
+
+	fmt.Println(a, b, c, d, e, f)
+	fmt.Println(g, h, i)
 }
